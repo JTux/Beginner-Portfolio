@@ -23,3 +23,14 @@ section {
 .odd-section .section-title {
   color: white;
 }
+
+hr {
+  border-color: #355c7d;
+  min-width: 50%;
+  max-width: 150px;
+  margin: 10px auto;
+}
+
+.odd-section hr {
+  border-color: white;
+}
