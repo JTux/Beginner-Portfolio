@@ -1,0 +1,30 @@
+// Nav
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.sticky + .content {
+    padding-top: 60px;
+}
+.navbar {
+    margin: 0;
+}
+#main-nav {
+    overflow: hidden;
+    background-color: #355c7d;
+    border-width: 0;
+    border-color: none;
+    border-radius: 0;
+    z-index: 2;
+}
+#main-nav a {
+    color: white;
+}
+#main-nav .nav-buttons a:hover {
+    color: #355c7d;
+}
+.icon-bar {
+    background-color: white;
+}
